@@ -1,81 +1,72 @@
 const treinos = [
-    {
-        dia: "DIA 1 – Full Body",
-        tecnica: "Bi-set",
-        objetivo: "Gasto calórico com ativação total",
-        exercicios: [
-            ["Agachamento com halteres", "3", "15", "Bi-set", "Junto com flexão de braços"],
-            ["Flexão de braços", "3", "10", "Bi-set", "-"],
-            ["Avanço alternado", "3", "10 cada perna", "Bi-set", "Junto com remada curvada"],
-            ["Remada curvada", "3", "12", "Bi-set", "-"],
-            ["Elevação pélvica", "3", "15", "Bi-set", "Junto com prancha com toques"],
-            ["Prancha com toques no ombro", "3", "30 seg", "Bi-set", "-"],
-            ["Abdominal infra", "3", "15", "Bi-set", "Junto com prancha lateral"],
-            ["Prancha lateral alternada", "3", "20 seg", "Bi-set", "-"]
-        ],
-        cardio: "5–10min de escada ou caminhada leve"
-    },
-    {
-        dia: "DIA 2 – Inferiores e Core",
-        tecnica: "Bi-set",
-        objetivo: "Foco em glúteos, pernas e abdômen",
-        exercicios: [
-            ["Agachamento sumô com halteres", "3", "15", "Bi-set", "Junto com stiff"],
-            ["Stiff", "3", "12", "Bi-set", "-"],
-            ["Passada no lugar", "3", "12", "Bi-set", "Junto com abdominal canivete"],
-            ["Abdominal canivete", "3", "15", "Bi-set", "-"],
-            ["Elevação de quadril unilateral", "3", "10 cada", "Bi-set", "Com elevação de perna deitada"],
-            ["Elevação de perna deitada", "3", "15", "Bi-set", "-"],
-            ["Prancha com elevação de perna alternada", "2", "20 seg", "Bi-set", "Com prancha frontal"],
-            ["Prancha frontal", "2", "30 seg", "Bi-set", "-"]
-        ],
-        cardio: "5min de caminhada ou bike leve"
-    },
-    {
-        dia: "DIA 3 – Superiores e Abdômen",
-        tecnica: "Bi-set",
-        objetivo: "Definição e resistência muscular",
-        exercicios: [
-            ["Desenvolvimento com halteres", "3", "12", "Bi-set", "Com rosca direta"],
-            ["Rosca direta", "3", "12", "Bi-set", "-"],
-            ["Tríceps banco", "3", "12", "Bi-set", "Com remada unilateral"],
-            ["Remada unilateral", "3", "12", "Bi-set", "-"],
-            ["Elevação lateral", "3", "15", "Bi-set", "Com rosca martelo"],
-            ["Rosca martelo", "3", "12", "Bi-set", "-"],
-            ["Abdominal remador", "3", "20", "Bi-set", "Com prancha com deslocamento"],
-            ["Prancha com deslocamento", "3", "30 seg", "Bi-set", "-"]
-        ],
-        cardio: "5min de escada ou escadaria"
-    },
-    {
-        dia: "DIA 4 – Cardio HIIT",
-        tecnica: "Intervalado (HIIT)",
-        objetivo: "Acelerar metabolismo e queima de gordura",
-        exercicios: [
-            ["Polichinelo", "-", "30 seg", "-", "-"],
-            ["Corrida no lugar (joelho alto)", "-", "30 seg", "-", "-"],
-            ["Burpee sem salto", "-", "30 seg", "-", "-"],
-            ["Agachamento com salto", "-", "30 seg", "-", "-"],
-            ["Mountain climber", "-", "30 seg", "-", "-"]
-        ],
-        cardio: "3 rodadas com 2min de descanso entre elas"
-    },
-    {
-        dia: "DIA 5 – Funcional Full Body + Core",
-        tecnica: "Bi-set",
-        objetivo: "Encerrar a semana com estímulo completo e core",
-        exercicios: [
-            ["Agachamento com halteres", "3", "15", "Bi-set", "Com desenvolvimento com halteres"],
-            ["Desenvolvimento com halteres", "3", "12", "Bi-set", "-"],
-            ["Flexão com joelhos", "3", "12", "Bi-set", "Com remada baixa"],
-            ["Remada baixa", "3", "15", "Bi-set", "-"],
-            ["Avanço com rotação de tronco", "3", "10 cada", "Bi-set", "Com prancha com remada"],
-            ["Prancha com remada alternada", "3", "12", "Bi-set", "-"],
-            ["Abdominal bicicleta", "3", "20", "Bi-set", "Com prancha com toques"],
-            ["Prancha com toques laterais", "3", "30 seg", "Bi-set", "-"]
-        ],
-        cardio: "Opcional: caminhada leve ou alongamento ativo"
-    }
+  {
+    dia: "✅ DIA 1 – Segunda (Academia – Inferiores + Glúteos)",
+    tecnica: "Bi-set com carga + cadência controlada",
+    objetivo: "Estímulo de glúteos, posterior e quadríceps",
+    exercicios: [
+      ["Agachamento livre", "4", "10-12", "Bi-set", "Com Cadeira extensora"],
+      ["Cadeira extensora", "4", "15", "Bi-set", "Cadência 2:2"],
+      ["Leg press 45°", "3", "12", "Bi-set", "Com avanço no smith"],
+      ["Avanço no smith", "3", "10 cada perna", "Bi-set", "Atenção à postura"],
+      ["Mesa flexora", "3", "12-15", "-", "Isolamento posterior"],
+      ["Elevação de quadril com barra", "3", "12", "-", "Glúteo máximo"],
+      ["Abdução sentada", "3", "20", "-", "Finalização de glúteo"]
+    ]
+  },
+
+  {
+    dia: "✅ DIA 2 – Terça (Casa – Full Body Funcional)",
+    tecnica: "Circuito funcional com Bi-set",
+    objetivo: "Manter estímulo metabólico no plantão",
+    exercicios: [
+      ["Agachamento + Desenvolvimento com garrafa", "3", "15", "Bi-set", "Pode usar mochila ou água como carga"],
+      ["Flexão com joelhos + Remada com mochila", "3", "12", "Bi-set", "Força e coordenação"],
+      ["Passada alternada + Prancha com toques", "3", "12 cada + 30s", "Bi-set", "Estabilização ativa"],
+      ["Abdominal infra + Bicicleta no solo", "3", "20", "Bi-set", "Core completo"]
+    ],
+    cardio: "3 min de polichinelo, corrida no lugar e agachamento com salto (30s cada, 2 rodadas)"
+  },
+
+  {
+    dia: "✅ DIA 3 – Quarta (Academia – Superiores + Core)",
+    tecnica: "Bi-set + Isolamentos",
+    objetivo: "Fortalecer braços, costas, ombros e abdômen",
+    exercicios: [
+      ["Puxada frente + Rosca direta", "3", "12", "Bi-set", "Costas + bíceps"],
+      ["Desenvolvimento máquina + Elevação lateral", "3", "12 + 15", "Bi-set", "Ombros"],
+      ["Tríceps pulley + Rosca martelo", "3", "12", "Bi-set", "Braços"],
+      ["Remada baixa máquina", "3", "12", "-", "Controle da execução"],
+      ["Prancha com joelhos no solo", "3", "30s", "-", "Estabilidade"],
+      ["Abdominal no banco inclinado", "3", "20", "-", "Parte inferior ativa"]
+    ]
+  },
+
+  {
+    dia: "✅ DIA 4 – Quinta (Casa – Core + Cardio HIIT)",
+    tecnica: "HIIT abdominal",
+    objetivo: "Queima calórica + definição abdominal",
+    exercicios: [
+      ["Prancha com toques", "3", "30 seg", "Circuito", "Core + ombros"],
+      ["Mountain climber", "3", "30 seg", "-", "Foco na respiração"],
+      ["Bicicleta abdominal", "3", "20 reps", "-", "Movimento controlado"],
+      ["Burpee sem salto", "3", "30 seg", "-", "Cardio intenso"],
+      ["Abdominal infra com perna estendida", "3", "20", "-", "Abdômen inferior"]
+    ],
+    cardio: "Finalize com 2 min de corrida parada + polichinelo"
+  },
+
+  {
+    dia: "✅ DIA 5 – Sexta (Academia – Inferiores + Abdômen)",
+    tecnica: "Bi-set + pausa curta",
+    objetivo: "Dar ênfase em glúteos e core para final da semana",
+    exercicios: [
+      ["Cadeira abdutora + Elevação pélvica máquina", "3", "20 + 15", "Bi-set", "Queima glúteo"],
+      ["Leg press + Stiff com halteres", "3", "12 + 12", "Bi-set", "Posterior + quadríceps"],
+      ["Avanço com step + Passada reversa", "3", "10 cada perna", "Bi-set", "Estabilidade"],
+      ["Abdominal na polia alta", "3", "15", "-", "Resistência"],
+      ["Prancha frontal + Abdominal canivete", "3", "30 seg + 20 reps", "Bi-set", "Finalização de core"]
+    ]
+  }
 ];
 
 
