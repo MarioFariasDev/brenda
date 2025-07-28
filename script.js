@@ -1,62 +1,62 @@
 const treinos = [
   {
-    dia: "DIA 1 – Inferiores (Glúteos + Posterior)",
-    tecnica: "Drop-set + Isometria",
-    objetivo: "Estímulo profundo em glúteos e posteriores",
+    dia: "DIA 1 – Inferiores (Glúteo + Posterior)",
+    tecnica: "Bi-set + Isometria",
+    objetivo: "Ativar profundamente glúteos e posteriores",
     exercicios: [
-      ["Cadeira flexora", "3", "10 + drop de 10 + isometria 15s", "Isolado posterior"],
-      ["Stiff com halteres", "3", "12", "Cadência 3s descida"],
-      ["Elevação pélvica com barra", "4", "12", "Última com isometria 20s"],
-      ["Cadeira abdutora", "3", "15 + 15", "Drop-set"],
-      ["Glúteo no cabo", "3", "12 cada perna", "Concentração total"]
+      ["Mesa flexora + Stiff com halteres", "3", "12 + 12", "Bi-set e controle"],
+      ["Glúteo na polia", "3", "15 cada perna", "Isometria 10s na última repetição"],
+      ["Cadeira abdutora", "3", "20", "Cadência lenta e constante"],
+      ["Elevação pélvica com barra", "4", "12", "Contração máxima + 10s isometria"],
+      ["Prancha com elevação de perna", "3", "30s", "Core + glúteo"]
     ]
   },
   {
-    dia: "DIA 2 – Superiores (Costas + Ombros + Braços)",
-    tecnica: "Bi-set + Cadência",
-    objetivo: "Trabalhar força e resistência com volume moderado",
+    dia: "DIA 2 – Superiores (Costas + Ombro + Braços)",
+    tecnica: "Drop-set + Cadência",
+    objetivo: "Desenvolver resistência e definição",
     exercicios: [
-      ["Puxada frente aberta + Remada baixa", "3", "12 + 12", "Bi-set costas"],
-      ["Desenvolvimento com halteres + Elevação lateral", "3", "10 + 12", "Bi-set ombros"],
-      ["Rosca direta barra + Rosca martelo alternada", "3", "10 + 12", "Bi-set bíceps"],
-      ["Tríceps testa + Tríceps corda", "3", "12 + 12", "Bi-set tríceps"],
-      ["Prancha isométrica", "3", "40s", "Core"]
+      ["Puxada frente + Remada unilateral", "3", "12 + 12", "Bi-set costas"],
+      ["Elevação lateral + Elevação frontal", "3", "15 + 15", "Bi-set ombro"],
+      ["Rosca direta barra", "3", "12, 10, 8 + drop", "Foco no controle"],
+      ["Tríceps corda", "3", "15", "Descanso curto"],
+      ["Prancha isométrica", "3", "40s", "Resistência de core"]
     ]
   },
   {
-    dia: "DIA 3 – Quadríceps + Core",
+    dia: "DIA 3 – Inferiores (Quadríceps + Glúteo)",
     tecnica: "Pirâmide crescente",
-    objetivo: "Foco total em quadríceps com intensidade progressiva",
+    objetivo: "Força e volume com foco no quadríceps",
     exercicios: [
-      ["Agachamento Smith", "4", "15/12/10/8", "Carga progressiva"],
-      ["Cadeira extensora", "3", "15/12/10", "Cadência 2s subida"],
-      ["Avanço com halteres", "3", "12 cada perna", "Estabilidade e controle"],
-      ["Abdominal canivete", "3", "20", "Core reto"],
-      ["Prancha com elevação alternada", "3", "30s", "Core lateral"]
+      ["Agachamento guiado", "4", "15/12/10/8", "Carga crescente"],
+      ["Cadeira extensora", "3", "15", "3s na contração"],
+      ["Afundo no Smith", "3", "12 cada perna", "Estabilidade e foco no glúteo"],
+      ["Elevação pélvica com peso", "3", "12", "Contração total"],
+      ["Abdominal oblíquo", "3", "20", "Core lateral"]
     ]
   },
   {
-    dia: "DIA 4 – Full Body Metabólico + Glúteos",
-    tecnica: "Circuito",
-    objetivo: "Ativação total com gasto calórico e resistência",
+    dia: "DIA 4 – Full Body HIIT (Cardio + Muscular)",
+    tecnica: "Circuito funcional",
+    objetivo: "Acelerar metabolismo e manter condicionamento",
     exercicios: [
-      ["Agachamento com halteres", "3", "15", "Sem descanso"],
-      ["Flexão de braço", "3", "12", "Controle"],
-      ["Remada curvada halter", "3", "15", "Respiração"],
-      ["Stiff com halter", "3", "15", "Foco posterior"],
-      ["Abdominal prancha escalador", "3", "30s", "Core + cardio"]
+      ["Agachamento com salto", "3", "15", "Explosão"],
+      ["Mountain climber", "3", "30s", "Alta intensidade"],
+      ["Flexão de braço no solo", "3", "12", "Resistência"],
+      ["Avanço alternado com halteres", "3", "20", "Sem pausa"],
+      ["Abdominal bicicleta", "3", "30s", "Ativação core"]
     ]
   },
   {
-    dia: "DIA 5 – Inferiores ênfase Glúteos",
-    tecnica: "Rest-pause + Contração máxima",
-    objetivo: "Isolamento e ativação final potente de glúteos",
+    dia: "DIA 5 – Glúteos isolados + Core final",
+    tecnica: "Foco unilateral + Contração máxima",
+    objetivo: "Finalizar a semana com ênfase glútea e abdominal",
     exercicios: [
-      ["Cadeira abdutora", "3", "15 + 10 + 10 (rest)", "Contração máxima"],
-      ["Elevação pélvica unilateral", "3", "12 cada perna", "Foco total glúteo"],
-      ["Glúteo 4 apoios caneleira", "3", "15 cada perna", "Amplitude total"],
-      ["Extensão de quadril na máquina", "3", "12 + isometria 15s", "Fechamento intenso"],
-      ["Abdominal infra solo", "3", "20", "Core final"]
+      ["Glúteo 4 apoios com caneleira", "3", "15 cada", "Amplitude máxima"],
+      ["Cadeira abdutora", "3", "15 + isometria 15s", "Contração consciente"],
+      ["Extensão de quadril na máquina", "3", "12", "Pausa no pico da contração"],
+      ["Abdominal infra com elevação de quadril", "3", "20", "Foco no baixo ventre"],
+      ["Prancha com deslocamento lateral", "3", "30s", "Resistência core"]
     ]
   }
 ];
