@@ -1,65 +1,42 @@
-const treinos = [
+  const treinos = [
   {
-    dia: "DIA 1 – Inferiores (Glúteo + Posterior)",
+    dia: "DIA 1 – Full Body (Glúteo + Posterior + Superior)",
     tecnica: "Bi-set + Isometria",
-    objetivo: "Ativar profundamente glúteos e posteriores",
+    objetivo: "Trabalhar grandes grupos musculares com foco em glúteos e força geral",
     exercicios: [
-      ["Mesa flexora + Stiff com halteres", "3", "12 + 12", "Bi-set e controle"],
-      ["Glúteo na polia", "3", "15 cada perna", "Isometria 10s na última repetição"],
-      ["Cadeira abdutora", "3", "20", "Cadência lenta e constante"],
-      ["Elevação pélvica com barra", "4", "12", "Contração máxima + 10s isometria"],
-      ["Prancha com elevação de perna", "3", "30s", "Core + glúteo"]
+      ["Stiff com halteres + Cadeira flexora", "3", "12 + 12", "Bi-set e cadência lenta"],
+      ["Puxada frente + Remada curvada", "3", "12 + 12", "Bi-set costas"],
+      ["Elevação pélvica com barra", "4", "12", "Isometria 15s no final"],
+      ["Desenvolvimento halteres + Elevação lateral", "3", "12 + 15", "Bi-set ombro"],
+      ["Prancha frontal", "3", "40s", "Core ativo"]
     ]
   },
   {
-    dia: "DIA 2 – Superiores (Costas + Ombro + Braços)",
-    tecnica: "Drop-set + Cadência",
-    objetivo: "Desenvolver resistência e definição",
-    exercicios: [
-      ["Puxada frente + Remada unilateral", "3", "12 + 12", "Bi-set costas"],
-      ["Elevação lateral + Elevação frontal", "3", "15 + 15", "Bi-set ombro"],
-      ["Rosca direta barra", "3", "12, 10, 8 + drop", "Foco no controle"],
-      ["Tríceps corda", "3", "15", "Descanso curto"],
-      ["Prancha isométrica", "3", "40s", "Resistência de core"]
-    ]
-  },
-  {
-    dia: "DIA 3 – Inferiores (Quadríceps + Glúteo)",
-    tecnica: "Pirâmide crescente",
-    objetivo: "Força e volume com foco no quadríceps",
+    dia: "DIA 2 – Full Body (Quadríceps + Glúteo + Core)",
+    tecnica: "Pirâmide + Rest-pause",
+    objetivo: "Dar estímulo completo para inferiores e core",
     exercicios: [
       ["Agachamento guiado", "4", "15/12/10/8", "Carga crescente"],
       ["Cadeira extensora", "3", "15", "3s na contração"],
-      ["Afundo no Smith", "3", "12 cada perna", "Estabilidade e foco no glúteo"],
-      ["Elevação pélvica com peso", "3", "12", "Contração total"],
-      ["Abdominal oblíquo", "3", "20", "Core lateral"]
+      ["Afundo no Smith", "3", "12 cada perna", "Controle total"],
+      ["Glúteo no cabo", "3", "15 cada", "Pausa de 1s no topo"],
+      ["Abdominal infra", "3", "20", "Core reto"]
     ]
   },
   {
-    dia: "DIA 4 – Full Body HIIT (Cardio + Muscular)",
-    tecnica: "Circuito funcional",
-    objetivo: "Acelerar metabolismo e manter condicionamento",
+    dia: "DIA 3 – Full Body Metabólico",
+    tecnica: "Circuito + Drop-set",
+    objetivo: "Gasto calórico alto e manutenção da força",
     exercicios: [
       ["Agachamento com salto", "3", "15", "Explosão"],
-      ["Mountain climber", "3", "30s", "Alta intensidade"],
-      ["Flexão de braço no solo", "3", "12", "Resistência"],
-      ["Avanço alternado com halteres", "3", "20", "Sem pausa"],
-      ["Abdominal bicicleta", "3", "30s", "Ativação core"]
-    ]
-  },
-  {
-    dia: "DIA 5 – Glúteos isolados + Core final",
-    tecnica: "Foco unilateral + Contração máxima",
-    objetivo: "Finalizar a semana com ênfase glútea e abdominal",
-    exercicios: [
-      ["Glúteo 4 apoios com caneleira", "3", "15 cada", "Amplitude máxima"],
-      ["Cadeira abdutora", "3", "15 + isometria 15s", "Contração consciente"],
-      ["Extensão de quadril na máquina", "3", "12", "Pausa no pico da contração"],
-      ["Abdominal infra com elevação de quadril", "3", "20", "Foco no baixo ventre"],
-      ["Prancha com deslocamento lateral", "3", "30s", "Resistência core"]
+      ["Flexão de braço", "3", "12", "Controle"],
+      ["Remada baixa + Rosca martelo", "3", "12 + 12", "Bi-set upper"],
+      ["Cadeira abdutora", "3", "15 + 10 + 10", "Drop-set glúteo"],
+      ["Mountain climber", "3", "30s", "Core + cardio"]
     ]
   }
 ];
+
 
 
 const treinoContainer = document.getElementById("treinoContainer");
@@ -161,3 +138,4 @@ document.getElementById("salvarFeedback").addEventListener("click", () => {
 document.getElementById("darkToggle").addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
 });
+
