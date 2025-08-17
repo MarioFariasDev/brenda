@@ -1,41 +1,62 @@
-  const treinos = [
+ const treinos = [
   {
-    dia: "DIA 1 – Full Body (Glúteo + Posterior + Superior)",
-    tecnica: "Bi-set + Isometria",
-    objetivo: "Trabalhar grandes grupos musculares com foco em glúteos e força geral",
+    dia: "DIA 1 – PEITO + TRÍCEPS",
+    tecnica: "Bi-set + Cadência controlada (3s descida)",
+    objetivo: "Força e definição de peitoral e tríceps",
     exercicios: [
-      ["Stiff com halteres + Cadeira flexora", "3", "12 + 12", "Bi-set e cadência lenta"],
-      ["Puxada frente + Remada curvada", "3", "12 + 12", "Bi-set costas"],
-      ["Elevação pélvica com barra", "4", "12", "Isometria 15s no final"],
-      ["Desenvolvimento halteres + Elevação lateral", "3", "12 + 15", "Bi-set ombro"],
-      ["Prancha frontal", "3", "40s", "Core ativo"]
+      { nome: "Supino reto barra", series: "4x8-10", tecnica: "Bi-set com Crucifixo reto halteres" },
+      { nome: "Crucifixo reto halteres", series: "4x10-12", tecnica: "Bi-set" },
+      { nome: "Supino inclinado halteres", series: "3x8-10", tecnica: "" },
+      { nome: "Crossover polia alta", series: "3x12-15", tecnica: "" },
+      { nome: "Tríceps corda polia", series: "4x10-12", tecnica: "Bi-set com Tríceps francês halteres" },
+      { nome: "Tríceps francês halteres", series: "4x10-12", tecnica: "Bi-set" },
+      { nome: "Mergulho banco", series: "3x12-15", tecnica: "" }
     ]
   },
   {
-    dia: "DIA 2 – Full Body (Quadríceps + Glúteo + Core)",
-    tecnica: "Pirâmide + Rest-pause",
-    objetivo: "Dar estímulo completo para inferiores e core",
+    dia: "DIA 2 – COSTAS + BÍCEPS",
+    tecnica: "Drop-set no final + Rest-pause",
+    objetivo: "Espessura e força de dorsais e bíceps",
     exercicios: [
-      ["Agachamento guiado", "4", "15/12/10/8", "Carga crescente"],
-      ["Cadeira extensora", "3", "15", "3s na contração"],
-      ["Afundo no Smith", "3", "12 cada perna", "Controle total"],
-      ["Glúteo no cabo", "3", "15 cada", "Pausa de 1s no topo"],
-      ["Abdominal infra", "3", "20", "Core reto"]
+      { nome: "Puxada alta frente barra", series: "4x10-12", tecnica: "Drop-set na última série" },
+      { nome: "Remada curvada barra", series: "4x8-10", tecnica: "" },
+      { nome: "Remada baixa cabo", series: "3x10-12", tecnica: "" },
+      { nome: "Pull-over polia", series: "3x12-15", tecnica: "" },
+      { nome: "Rosca direta barra", series: "4x8-10", tecnica: "Rest-pause na última série" },
+      { nome: "Rosca alternada halteres", series: "3x10-12", tecnica: "" },
+      { nome: "Rosca martelo corda", series: "3x12-15", tecnica: "" }
     ]
   },
   {
-    dia: "DIA 3 – Full Body Metabólico",
-    tecnica: "Circuito + Drop-set",
-    objetivo: "Gasto calórico alto e manutenção da força",
+    dia: "DIA 3 – PERNAS COMPLETO",
+    tecnica: "Pirâmide crescente + Bi-set",
+    objetivo: "Força e hipertrofia de quadríceps, posteriores e glúteos",
     exercicios: [
-      ["Agachamento com salto", "3", "15", "Explosão"],
-      ["Flexão de braço", "3", "12", "Controle"],
-      ["Remada baixa + Rosca martelo", "3", "12 + 12", "Bi-set upper"],
-      ["Cadeira abdutora", "3", "15 + 10 + 10", "Drop-set glúteo"],
-      ["Mountain climber", "3", "30s", "Core + cardio"]
+      { nome: "Agachamento livre", series: "5x12-10-8-6-6", tecnica: "Pirâmide crescente" },
+      { nome: "Leg press 45°", series: "4x10-12", tecnica: "Bi-set com Cadeira extensora" },
+      { nome: "Cadeira extensora", series: "4x12-15", tecnica: "Bi-set" },
+      { nome: "Mesa flexora", series: "4x10-12", tecnica: "" },
+      { nome: "Stiff halteres", series: "4x8-10", tecnica: "" },
+      { nome: "Elevação pélvica barra", series: "4x10-12", tecnica: "" },
+      { nome: "Panturrilha em pé máquina", series: "5x15-20", tecnica: "" }
+    ]
+  },
+  {
+    dia: "DIA 4 – OMBROS + CORE",
+    tecnica: "Tri-set + Resistência",
+    objetivo: "Estabilidade, definição e fortalecimento do core",
+    exercicios: [
+      { nome: "Desenvolvimento halteres", series: "4x8-10", tecnica: "Tri-set com Elevação lateral e Elevação frontal" },
+      { nome: "Elevação lateral halteres", series: "4x12-15", tecnica: "Tri-set" },
+      { nome: "Elevação frontal barra/halteres", series: "4x12-15", tecnica: "Tri-set" },
+      { nome: "Encolhimento barra", series: "4x12-15", tecnica: "" },
+      { nome: "Prancha isométrica", series: "3x1min", tecnica: "" },
+      { nome: "Abdominal infra banco", series: "3x15-20", tecnica: "" },
+      { nome: "Abdominal oblíquo no cabo", series: "3x12-15", tecnica: "" }
     ]
   }
 ];
+
 
 
 
@@ -138,4 +159,5 @@ document.getElementById("salvarFeedback").addEventListener("click", () => {
 document.getElementById("darkToggle").addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
 });
+
 
