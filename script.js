@@ -1,7 +1,7 @@
 const treinos = [
   {
     dia: "DIA 1 – Peito + Tríceps",
-    tecnica: "Bi-set + Cadência controlada",
+    tecnica: "Bi-set + Cadência lenta",
     objetivo: "Força e definição de peitoral e tríceps",
     exercicios: [
       ["Supino reto barra", "4", "8–10", "Bi-set", "Com crucifixo reto"],
@@ -30,16 +30,15 @@ const treinos = [
     cardio: "10 min transport ou escada"
   },
   {
-    dia: "DIA 3 – Pernas Completo",
+    dia: "DIA 3 – Pernas (Quadríceps ênfase)",
     tecnica: "Pirâmide + Bi-set",
-    objetivo: "Hipertrofia de quadríceps, posteriores e glúteos",
+    objetivo: "Hipertrofia de quadríceps e força geral",
     exercicios: [
       ["Agachamento livre", "5", "12/10/8/6/6", "Pirâmide crescente", "-"],
       ["Leg press 45°", "4", "10–12", "Bi-set", "Com cadeira extensora"],
       ["Cadeira extensora", "4", "12–15", "Bi-set", "-"],
-      ["Mesa flexora", "4", "10–12", "-", "-"],
-      ["Stiff halteres", "4", "8–10", "-", "-"],
-      ["Elevação pélvica barra", "4", "10–12", "-", "Contração máxima no topo"],
+      ["Afundo no Smith", "3", "12 cada perna", "-", "-"],
+      ["Passada andando halteres", "3", "12 cada perna", "-", "-"],
       ["Panturrilha em pé máquina", "5", "15–20", "-", "-"]
     ],
     cardio: "12–15 min bike leve"
@@ -47,17 +46,32 @@ const treinos = [
   {
     dia: "DIA 4 – Ombros + Core",
     tecnica: "Tri-set + Resistência",
-    objetivo: "Estabilidade, definição e fortalecimento do core",
+    objetivo: "Definição de ombros e fortalecimento abdominal",
     exercicios: [
       ["Desenvolvimento halteres", "4", "8–10", "Tri-set", "Com elevação lateral e frontal"],
       ["Elevação lateral halteres", "4", "12–15", "Tri-set", "-"],
       ["Elevação frontal halteres/barra", "4", "12–15", "Tri-set", "-"],
       ["Encolhimento barra/halteres", "4", "12–15", "-", "Trapézio"],
       ["Prancha isométrica", "3", "60s", "-", "-"],
-      ["Abdominal infra no banco", "3", "15–20", "-", "-"],
+      ["Abdominal infra banco", "3", "15–20", "-", "-"],
       ["Abdominal oblíquo no cabo", "3", "12–15", "-", "-"]
     ],
     cardio: "10–12 min caminhada inclinada"
+  },
+  {
+    dia: "DIA 5 – Glúteos + Posterior + Cardio",
+    tecnica: "Bi-set + Drop-set",
+    objetivo: "Ênfase em glúteos, posteriores e alto gasto calórico",
+    exercicios: [
+      ["Levantamento terra romeno", "4", "8–10", "-", "-"],
+      ["Cadeira flexora", "4", "10–12", "Bi-set", "Com glúteo no cabo"],
+      ["Glúteo no cabo", "4", "12–15", "Bi-set", "-"],
+      ["Elevação pélvica barra", "4", "12–15", "Drop-set (última)", "Pausa isométrica topo"],
+      ["Cadeira abdutora", "4", "15–20", "-", "-"],
+      ["Avanço no step com halteres", "3", "12 cada perna", "-", "-"],
+      ["Mountain climber", "3", "40s", "-", "Cardio + core"]
+    ],
+    cardio: "15–20 min HIIT leve na esteira (1 min rápido / 1 min caminhada)"
   }
 ];
 
@@ -164,6 +178,7 @@ document.getElementById("salvarFeedback").addEventListener("click", () => {
 document.getElementById("darkToggle").addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
 });
+
 
 
 
