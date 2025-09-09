@@ -1,77 +1,77 @@
 const treinos = [
   {
     dia: "DIA 1 – Peito + Tríceps",
-    tecnica: "Bi-set + Cadência lenta",
-    objetivo: "Força e definição de peitoral e tríceps",
+    tecnica: "Bi-set + Drop-set",
+    objetivo: "Força e resistência no peitoral e tríceps",
     exercicios: [
-      ["Supino reto barra", "4", "8–10", "Bi-set", "Com crucifixo reto"],
-      ["Crucifixo reto halteres", "4", "10–12", "Bi-set", "-"],
-      ["Supino inclinado halteres", "3", "8–10", "-", "-"],
-      ["Crossover polia alta", "3", "12–15", "-", "-"],
-      ["Tríceps corda polia", "4", "10–12", "Bi-set", "Com tríceps francês"],
-      ["Tríceps francês halteres", "4", "10–12", "Bi-set", "-"],
-      ["Mergulho no banco", "3", "12–15", "-", "-"]
+      ["Supino inclinado barra", "4", "8–10", "Bi-set", "Com crucifixo inclinado"],
+      ["Crucifixo inclinado halteres", "4", "10–12", "Bi-set", "-"],
+      ["Supino reto halteres", "3", "10–12", "-", "-"],
+      ["Peck deck máquina", "3", "12–15", "Drop-set (última)", "-"],
+      ["Tríceps testa barra", "4", "10–12", "-", "-"],
+      ["Tríceps corda polia", "3", "12–15", "-", "-"],
+      ["Flexão de braço", "3", "máx", "-", "Finalização"]
     ],
-    cardio: "10–15 min esteira leve"
+    cardio: "10 min bike leve"
   },
   {
     dia: "DIA 2 – Costas + Bíceps",
-    tecnica: "Drop-set (última) + Rest-pause",
-    objetivo: "Espessura e força de dorsais e bíceps",
+    tecnica: "Super-set + Rest-pause",
+    objetivo: "Fortalecer dorsais e melhorar puxada",
     exercicios: [
-      ["Puxada alta frente", "4", "10–12", "Drop-set (última)", "-"],
-      ["Remada curvada barra", "4", "8–10", "-", "Costas grossas"],
-      ["Remada baixa cabo", "3", "10–12", "-", "-"],
-      ["Pull-over na polia", "3", "12–15", "-", "-"],
-      ["Rosca direta barra", "4", "8–10", "Rest-pause (última)", "-"],
-      ["Rosca alternada halteres", "3", "10–12", "-", "-"],
-      ["Rosca martelo corda", "3", "12–15", "-", "-"]
+      ["Puxada pronada frente", "4", "10–12", "Super-set", "Com remada unilateral"],
+      ["Remada unilateral halteres", "4", "10–12", "Super-set", "-"],
+      ["Remada curvada barra", "4", "8–10", "-", "-"],
+      ["Puxada triângulo polia", "3", "10–12", "-", "-"],
+      ["Rosca direta barra W", "4", "8–10", "Rest-pause", "-"],
+      ["Rosca alternada supinação", "3", "10–12", "-", "-"],
+      ["Rosca martelo banco inclinado", "3", "12–15", "-", "-"]
     ],
-    cardio: "10 min transport ou escada"
+    cardio: "12 min transport"
   },
   {
-    dia: "DIA 3 – Pernas (Quadríceps ênfase)",
+    dia: "DIA 3 – Pernas (Glúteos + Quadríceps)",
     tecnica: "Pirâmide + Bi-set",
-    objetivo: "Hipertrofia de quadríceps e força geral",
+    objetivo: "Hipertrofia e modelagem de pernas",
     exercicios: [
-      ["Agachamento livre", "5", "12/10/8/6/6", "Pirâmide crescente", "-"],
-      ["Leg press 45°", "4", "10–12", "Bi-set", "Com cadeira extensora"],
-      ["Cadeira extensora", "4", "12–15", "Bi-set", "-"],
-      ["Afundo no Smith", "3", "12 cada perna", "-", "-"],
-      ["Passada andando halteres", "3", "12 cada perna", "-", "-"],
-      ["Panturrilha em pé máquina", "5", "15–20", "-", "-"]
+      ["Agachamento Smith", "5", "12/10/8/6/6", "Pirâmide", "-"],
+      ["Leg press horizontal", "4", "10–12", "Bi-set", "Com passada estática"],
+      ["Passada estática Smith", "4", "12 cada perna", "Bi-set", "-"],
+      ["Cadeira extensora", "3", "12–15", "-", "-"],
+      ["Cadeira abdutora", "4", "15–20", "-", "-"],
+      ["Panturrilha sentado", "5", "15–20", "-", "-"]
     ],
-    cardio: "12–15 min bike leve"
+    cardio: "10 min escada"
   },
   {
     dia: "DIA 4 – Ombros + Core",
     tecnica: "Tri-set + Resistência",
-    objetivo: "Definição de ombros e fortalecimento abdominal",
+    objetivo: "Definição de ombros e abdômen",
     exercicios: [
-      ["Desenvolvimento halteres", "4", "8–10", "Tri-set", "Com elevação lateral e frontal"],
+      ["Desenvolvimento militar barra", "4", "8–10", "Tri-set", "Com lateral e frontal"],
       ["Elevação lateral halteres", "4", "12–15", "Tri-set", "-"],
-      ["Elevação frontal halteres/barra", "4", "12–15", "Tri-set", "-"],
-      ["Encolhimento barra/halteres", "4", "12–15", "-", "Trapézio"],
-      ["Prancha isométrica", "3", "60s", "-", "-"],
-      ["Abdominal infra banco", "3", "15–20", "-", "-"],
-      ["Abdominal oblíquo no cabo", "3", "12–15", "-", "-"]
+      ["Elevação frontal polia", "4", "12–15", "Tri-set", "-"],
+      ["Elevação posterior peck deck", "3", "12–15", "-", "Deltoide posterior"],
+      ["Prancha com elevação de perna", "3", "30s cada perna", "-", "-"],
+      ["Abdominal na polia alta", "3", "15–20", "-", "-"],
+      ["Abdominal bicicleta", "3", "30s", "-", "-"]
     ],
-    cardio: "10–12 min caminhada inclinada"
+    cardio: "10 min corrida leve"
   },
   {
-    dia: "DIA 5 – Glúteos + Posterior + Cardio",
+    dia: "DIA 5 – Pernas Posterior + HIIT",
     tecnica: "Bi-set + Drop-set",
-    objetivo: "Ênfase em glúteos, posteriores e alto gasto calórico",
+    objetivo: "Ênfase em posteriores, glúteos e gasto calórico",
     exercicios: [
-      ["Levantamento terra romeno", "4", "8–10", "-", "-"],
-      ["Cadeira flexora", "4", "10–12", "Bi-set", "Com glúteo no cabo"],
-      ["Glúteo no cabo", "4", "12–15", "Bi-set", "-"],
-      ["Elevação pélvica barra", "4", "12–15", "Drop-set (última)", "Pausa isométrica topo"],
-      ["Cadeira abdutora", "4", "15–20", "-", "-"],
-      ["Avanço no step com halteres", "3", "12 cada perna", "-", "-"],
-      ["Mountain climber", "3", "40s", "-", "Cardio + core"]
+      ["Levantamento terra sumô", "4", "8–10", "-", "-"],
+      ["Mesa flexora", "4", "10–12", "Bi-set", "Com glúteo máquina"],
+      ["Glúteo máquina", "4", "12–15", "Bi-set", "-"],
+      ["Hip thrust barra", "4", "12–15", "Drop-set (última)", "-"],
+      ["Stiff halteres", "3", "10–12", "-", "-"],
+      ["Avanço dinâmico halteres", "3", "12 cada perna", "-", "-"],
+      ["Burpee", "3", "12", "-", "Final cardio"]
     ],
-    cardio: "15–20 min HIIT leve na esteira (1 min rápido / 1 min caminhada)"
+    cardio: "15–20 min HIIT esteira (30s corrida / 1min caminhada)"
   }
 ];
 
@@ -178,6 +178,7 @@ document.getElementById("salvarFeedback").addEventListener("click", () => {
 document.getElementById("darkToggle").addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
 });
+
 
 
 
